@@ -3,6 +3,7 @@ body {
     width: 70%;
 }
 nav ul{
+    float: right;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -10,7 +11,7 @@ nav ul{
 }
 nav ul li {
     margin-right: 20px;
-    float: right;
+    display:inline;
 }
 a {
     text-decoration: none;
